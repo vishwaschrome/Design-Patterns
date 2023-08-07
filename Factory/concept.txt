@@ -1,0 +1,16 @@
+Intent:
+
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass,
+but allows subclasses to alter the type of objects that will be created.
+
+When to Use:
+
+1) A class can't anticipate the class of objects it must create
+2) A class wants its subclasses to specify the objects it creates
+3) Classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclass is the delegate
+
+Benefits / Applicability:
+
+1) Factory design pattern provides an approach to code for interface rather than implementation.
+2) Factory pattern removes the instantiation of actual implementation classes from client code. Factory pattern makes our code more robust, less coupled, and easy to extend. 
+3) Factory pattern provides abstraction between implementation and client classes through inheritance.
