@@ -1,0 +1,13 @@
+Intent:
+Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+
+Benefits/Advantages:
+1) Abstract Factory design pattern provides an approach to code for interface rather than implementation.
+2) Abstract Factory pattern is “factory of factories” and can be easily extended to accommodate more products, 
+3) Abstract Factory pattern is robust and avoids the conditional logic of the Factory pattern
+
+Applicability:
+1) A system should be independent of how its products are created, composed, and represented
+2) A system should be configured with one of multiple families of products
+3) A family of related product objects is designed to be used together
+you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations
