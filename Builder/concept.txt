@@ -6,7 +6,7 @@ Problem:
 Imagine a complex object that requires laborious, step-by-step initialization of many fields and nested objects. Such initialization code is usually buried inside a monstrous constructor with lots of parameters. Or even worse: scattered all over the client code.
 
 There are two traditional solutions:
-1) Extend the Base class and create a set of subclasses to cover all combinations of the parameters. It increases the number of subclasses. If we want to add a new parameter, this hierarchy grows even more.
+1) Extend the Base class and create a set of subclasses to cover all combinations of the parameters. It increases the number of subclasses. This hierarchy grows even more if we want to add a new parameter.
 2) Create a giant constructor in the base with all possible parameters. In most cases, most of the parameters won't be used making the constructor calls pretty ugly.
 
 Best Solution: Use Builder Pattern.
